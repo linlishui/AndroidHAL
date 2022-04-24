@@ -9,6 +9,14 @@ Android HAL 入门可分为以下几个小节：
 - 自定义adb命令访问框架层服务
 
 
+下文基于网上资料，从零开始在 Androdx86 7.1.2 平台上构建。
+
+
+参考文章：
+- [Android 内核添加驱动](https://www.jianshu.com/p/4ea84d1ce4e5)
+- [Android硬件抽象层（HAL）概要介绍和学习计划](https://blog.csdn.net/Luoshengyang/article/details/6567257)
+
+
 ### Android内核添加驱动
 
 > 代码路径：`kernel/drivers`
@@ -193,7 +201,7 @@ PRODUCT_PACKAGES += \
 
 - 在`sepolicy`设置 vireg 需要的安全权限
 
-- 在SystemServer上相关位置进行服务注册：`ServiceManager.addService("freg", new ViregService());`
+- 在SystemServer上相关位置进行服务注册：`ServiceManager.addService("vireg", new ViregService());`
 
 
 ### 自定义adb命令访问框架层服务
