@@ -1,0 +1,2 @@
+# Access to /proc/vireg
+allow system_server vireg_device:chr_file rw_file_perms;

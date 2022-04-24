@@ -1,0 +1,2 @@
+# # Allow apps to find vireg service
+allow untrusted_app vireg_service:service_manager find;

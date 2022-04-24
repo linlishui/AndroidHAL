@@ -1,0 +1,2 @@
+# Custom device nodes
+/dev/vireg      0666   root     root

@@ -1,4 +1,4 @@
 
 # Custom vireg bin
 PRODUCT_PACKAGES += \
-    vireg \
+    vireg_test \
